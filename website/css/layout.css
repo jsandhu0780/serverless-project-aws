@@ -146,6 +146,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
+   position: sticky;
+   background-color: #0D0D0D;
    min-height: 48px;
    width: auto;
 
