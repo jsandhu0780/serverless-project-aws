@@ -5,4 +5,4 @@ async function updateCounter() {
     let data = await response.json();
     counterElement.innerText = `Views: ${data}`;
 }
-await updateCounter();
+updateCounter();
